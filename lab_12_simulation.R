@@ -3,3 +3,4 @@ generate_data = function(n, p) {
   responses = sample(covariates, n)
   return(list(covariates = covariates, responses = responses))
 }
+
